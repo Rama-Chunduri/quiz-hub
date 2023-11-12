@@ -1,0 +1,129 @@
+.cw{
+    background-image: url("./c_w_back.png");
+    background-size: 100%;
+    color: pink;
+    font-family: "Courgette";
+    text-align: center;
+    font-size: 3rem;
+    margin-left: -10%;
+    margin-top: 25%;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: pink;
+    font-family: "Courgette";
+    font-size: 3rem;
+    margin-left: 15%;
+}
+li a:hover{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.grid-container a:hover{
+    color: white;
+}
+h1{
+    text-align: center;
+    padding-left: 10%;
+    font-family: "Courgette";
+    font-size: 6rem;
+    font-weight: 100;
+    color: pink;
+}
+body{
+    background-image: url("./background.png");
+    background-size: 110%;
+}
+.hovering{
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 50%;
+    color: pink;
+    font-family: "Courgette";
+    font-size: 5rem;
+    font-weight: 90;
+    transition: 0.1ms;
+}
+.page2body{
+    background: url("./page2.png");
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+.card1 img{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+.card2 img{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+.card3 img{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+.card4 img{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+.card5 img{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+.card6 img{
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.grid-container a{
+    padding-top: 50%;
+    padding-left: 10%;
+    color: pink;
+    font-family: "Courgette";
+    font-size: 3rem;
+    font-weight: 70;
+}
+.questions{
+    background-image: url("./q_back.png");
+    background-size: 95%;
+    background-position-x: 25%;
+}
+.questions h1{
+    margin-top: 15%;
+    margin-left: 15%;
+    font-size: 3rem;
+    max-width: 900px;
+}
+.grid-container a{
+    transition: 0.1ms;
+}
+.cw a{
+    color: pink;
+}
+.cw a:hover{
+    color: white;
+}
